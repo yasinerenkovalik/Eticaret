@@ -1,0 +1,17 @@
+/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Infrastructure/Eticaret.Infrusturucture/bin/Debug/net6.0/Eticaret.Infrusturucture.deps.json
+/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Infrastructure/Eticaret.Infrusturucture/bin/Debug/net6.0/Eticaret.Infrusturucture.dll
+/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Infrastructure/Eticaret.Infrusturucture/bin/Debug/net6.0/Eticaret.Infrusturucture.pdb
+/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Infrastructure/Eticaret.Infrusturucture/bin/Debug/net6.0/Eticaret.Application.dll
+/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Infrastructure/Eticaret.Infrusturucture/bin/Debug/net6.0/Eticaret.Domain.dll
+/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Infrastructure/Eticaret.Infrusturucture/bin/Debug/net6.0/Eticaret.Application.pdb
+/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Infrastructure/Eticaret.Infrusturucture/bin/Debug/net6.0/Eticaret.Domain.pdb
+/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Infrastructure/Eticaret.Infrusturucture/obj/Debug/net6.0/Eticaret.Infrusturucture.csproj.AssemblyReference.cache
+/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Infrastructure/Eticaret.Infrusturucture/obj/Debug/net6.0/Eticaret.Infrusturucture.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Infrastructure/Eticaret.Infrusturucture/obj/Debug/net6.0/Eticaret.Infrusturucture.AssemblyInfoInputs.cache
+/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Infrastructure/Eticaret.Infrusturucture/obj/Debug/net6.0/Eticaret.Infrusturucture.AssemblyInfo.cs
+/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Infrastructure/Eticaret.Infrusturucture/obj/Debug/net6.0/Eticaret.Infrusturucture.csproj.CoreCompileInputs.cache
+/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Infrastructure/Eticaret.Infrusturucture/obj/Debug/net6.0/Eticaret.Infrusturucture.csproj.CopyComplete
+/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Infrastructure/Eticaret.Infrusturucture/obj/Debug/net6.0/Eticaret.Infrusturucture.dll
+/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Infrastructure/Eticaret.Infrusturucture/obj/Debug/net6.0/refint/Eticaret.Infrusturucture.dll
+/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Infrastructure/Eticaret.Infrusturucture/obj/Debug/net6.0/Eticaret.Infrusturucture.pdb
+/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Infrastructure/Eticaret.Infrusturucture/obj/Debug/net6.0/ref/Eticaret.Infrusturucture.dll

@@ -1,0 +1,12 @@
+/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Core/Eticaret.Domain/bin/Debug/net6.0/Eticaret.Domain.deps.json
+/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Core/Eticaret.Domain/bin/Debug/net6.0/Eticaret.Domain.dll
+/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Core/Eticaret.Domain/bin/Debug/net6.0/Eticaret.Domain.pdb
+/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Core/Eticaret.Domain/obj/Debug/net6.0/Eticaret.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Core/Eticaret.Domain/obj/Debug/net6.0/Eticaret.Domain.AssemblyInfoInputs.cache
+/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Core/Eticaret.Domain/obj/Debug/net6.0/Eticaret.Domain.AssemblyInfo.cs
+/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Core/Eticaret.Domain/obj/Debug/net6.0/Eticaret.Domain.csproj.CoreCompileInputs.cache
+/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Core/Eticaret.Domain/obj/Debug/net6.0/Eticaret.Domain.dll
+/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Core/Eticaret.Domain/obj/Debug/net6.0/refint/Eticaret.Domain.dll
+/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Core/Eticaret.Domain/obj/Debug/net6.0/Eticaret.Domain.pdb
+/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Core/Eticaret.Domain/obj/Debug/net6.0/ref/Eticaret.Domain.dll
+/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Core/Eticaret.Domain/obj/Debug/net6.0/Eticaret.Domain.csproj.AssemblyReference.cache

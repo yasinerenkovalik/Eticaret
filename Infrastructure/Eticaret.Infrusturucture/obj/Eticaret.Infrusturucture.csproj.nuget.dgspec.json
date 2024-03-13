@@ -1,0 +1,255 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Infrastructure/Eticaret.Infrusturucture/Eticaret.Infrusturucture.csproj": {}
+  },
+  "projects": {
+    "/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Core/Eticaret.Application/Eticaret.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Core/Eticaret.Application/Eticaret.Application.csproj",
+        "projectName": "Eticaret.Application",
+        "projectPath": "/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Core/Eticaret.Application/Eticaret.Application.csproj",
+        "packagesPath": "/Users/yasineren/.nuget/packages/",
+        "outputPath": "/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Core/Eticaret.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/yasineren/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Core/Eticaret.Domain/Eticaret.Domain.csproj": {
+                "projectPath": "/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Core/Eticaret.Domain/Eticaret.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.4.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[10.4.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[10.4.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Core/Eticaret.Domain/Eticaret.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Core/Eticaret.Domain/Eticaret.Domain.csproj",
+        "projectName": "Eticaret.Domain",
+        "projectPath": "/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Core/Eticaret.Domain/Eticaret.Domain.csproj",
+        "packagesPath": "/Users/yasineren/.nuget/packages/",
+        "outputPath": "/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Core/Eticaret.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/yasineren/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Infrastructure/Eticaret.Infrusturucture/Eticaret.Infrusturucture.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Infrastructure/Eticaret.Infrusturucture/Eticaret.Infrusturucture.csproj",
+        "projectName": "Eticaret.Infrusturucture",
+        "projectPath": "/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Infrastructure/Eticaret.Infrusturucture/Eticaret.Infrusturucture.csproj",
+        "packagesPath": "/Users/yasineren/.nuget/packages/",
+        "outputPath": "/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Infrastructure/Eticaret.Infrusturucture/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/yasineren/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Core/Eticaret.Application/Eticaret.Application.csproj": {
+                "projectPath": "/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Core/Eticaret.Application/Eticaret.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.18.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "QRCoder": {
+              "target": "Package",
+              "version": "[1.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

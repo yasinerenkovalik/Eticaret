@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Serilog" Version="3.0.1" />
+    <PackageReference Include="Serilog.AspNetCore" Version="7.0.0" />
+    <PackageReference Include="Serilog.Sinks.PostgreSQL" Version="2.3.0" />
+    <PackageReference Include="Serilog.Sinks.Seq" Version="5.2.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Core\Eticaret.Application\Eticaret.Application.csproj" />
+      <ProjectReference Include="..\Infrastructure\Eticaret.Persistance\Eticaret.Persistance.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="Eticaret.Persistance">
+        <HintPath>..\Infrastructure\Eticaret.Persistance\bin\Debug\net6.0\Eticaret.Persistance.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
