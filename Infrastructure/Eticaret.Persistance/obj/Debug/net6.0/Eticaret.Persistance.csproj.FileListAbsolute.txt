@@ -17,3 +17,4 @@
 /Users/yasineren/Desktop/EticaretAPİ/Eticaret/Infrastructure/Eticaret.Persistance/obj/Debug/net6.0/ref/Eticaret.Persistance.dll
 /Users/yasineren/Desktop/EticaretAPİ/Eticaret/Infrastructure/Eticaret.Persistance/bin/Debug/net6.0/Eticaret.Persistance.runtimeconfig.json
 /Users/yasineren/Desktop/EticaretAPİ/Eticaret/Infrastructure/Eticaret.Persistance/obj/Debug/net6.0/Eticaret.Persistance.genruntimeconfig.cache
+/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Infrastructure/Eticaret.Persistance/obj/Debug/net6.0/Eticaret.Persistance.sourcelink.json

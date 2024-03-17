@@ -10,3 +10,4 @@
 /Users/yasineren/Desktop/EticaretAPİ/Eticaret/Core/Eticaret.Domain/obj/Debug/net6.0/Eticaret.Domain.pdb
 /Users/yasineren/Desktop/EticaretAPİ/Eticaret/Core/Eticaret.Domain/obj/Debug/net6.0/ref/Eticaret.Domain.dll
 /Users/yasineren/Desktop/EticaretAPİ/Eticaret/Core/Eticaret.Domain/obj/Debug/net6.0/Eticaret.Domain.csproj.AssemblyReference.cache
+/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Core/Eticaret.Domain/obj/Debug/net6.0/Eticaret.Domain.sourcelink.json

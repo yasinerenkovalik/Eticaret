@@ -91,3 +91,4 @@
 /Users/yasineren/Desktop/EticaretAPİ/Eticaret/Eticaret.Api/bin/Debug/net6.0/System.Text.Encodings.Web.dll
 /Users/yasineren/Desktop/EticaretAPİ/Eticaret/Eticaret.Api/bin/Debug/net6.0/System.Text.Json.dll
 /Users/yasineren/Desktop/EticaretAPİ/Eticaret/Eticaret.Api/bin/Debug/net6.0/runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll
+/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Eticaret.Api/obj/Debug/net6.0/Eticaret.Api.sourcelink.json

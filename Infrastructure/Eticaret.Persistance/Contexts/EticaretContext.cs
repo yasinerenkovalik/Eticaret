@@ -23,6 +23,7 @@ public class EticaretContext:DbContext
            {
                EntityState.Added => data.Entity.CDateTime=DateTime.UtcNow,
                EntityState.Modified => data.Entity.UpdDateTime=DateTime.UtcNow,
+               _=>DateTime.UtcNow
            };
        }
         return await base.SaveChangesAsync(cancellationToken);

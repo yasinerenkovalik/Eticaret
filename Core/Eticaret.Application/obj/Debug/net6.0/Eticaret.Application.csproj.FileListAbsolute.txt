@@ -13,3 +13,4 @@
 /Users/yasineren/Desktop/EticaretAPİ/Eticaret/Core/Eticaret.Application/obj/Debug/net6.0/refint/Eticaret.Application.dll
 /Users/yasineren/Desktop/EticaretAPİ/Eticaret/Core/Eticaret.Application/obj/Debug/net6.0/Eticaret.Application.pdb
 /Users/yasineren/Desktop/EticaretAPİ/Eticaret/Core/Eticaret.Application/obj/Debug/net6.0/ref/Eticaret.Application.dll
+/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Core/Eticaret.Application/obj/Debug/net6.0/Eticaret.Application.sourcelink.json
