@@ -21,6 +21,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Core\Eticaret.Application\Eticaret.Application.csproj" />
+      <ProjectReference Include="..\Infrastructure\Eticaret.Infrusturucture\Eticaret.Infrusturucture.csproj" />
       <ProjectReference Include="..\Infrastructure\Eticaret.Persistance\Eticaret.Persistance.csproj" />
     </ItemGroup>
 
