@@ -18,7 +18,7 @@ public class CreateProductValidator:AbstractValidator<VM_Create_Product>
             .NotEmpty()
             .NotNull()
                 .WithMessage("Stok bilgisini boş bırakmyaıız")
-            .Must(s => s > 0).WithMessage("stok bilgisi hegatif olamaz");
+            .Must(s => s > 0).WithMessage("stok bilgisi negatif olamaz");
         RuleFor(p => p.Price)
             .NotEmpty()
             .NotNull()

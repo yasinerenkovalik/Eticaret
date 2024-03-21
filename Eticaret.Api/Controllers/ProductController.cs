@@ -1,5 +1,6 @@
 using System.Net;
 using Eticaret.Application.Repositories;
+using Eticaret.Application.RequestParameters;
 using Eticaret.Application.ViewModels.Products;
 using Eticaret.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
@@ -22,9 +23,24 @@ namespace Eticaret.Api.Controllers
         }
 
         [HttpGet]
-        public async  Task<IActionResult> Get()
+        public async  Task<IActionResult> Get([FromQuery]Pagination pagination)
         {
-           return Ok(_productReadRepository.GetAll(false));
+              var totalCount = _productReadRepository.GetAll(false).Count();
+              var products=  _productReadRepository
+                  .GetAll(false)
+                  .Skip(pagination.Page*pagination.Size)
+                  .Take(pagination.Size)
+                  .Select(p => new
+                {
+                    p.Id,
+                    p.Name,
+                    p.Price,
+                    p.Stock,
+                    p.CDateTime,
+                    p.UpdDateTime
+
+                });
+               return Ok(new{totalCount,products});
         }
 
         [HttpGet("{id}")]
