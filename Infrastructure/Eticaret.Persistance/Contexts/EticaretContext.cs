@@ -26,6 +26,6 @@ public class EticaretContext:DbContext
                _=>DateTime.UtcNow
            };
        }
-        return await base.SaveChangesAsync(cancellationToken);
+        return await  base.SaveChangesAsync(cancellationToken);
     }
 }

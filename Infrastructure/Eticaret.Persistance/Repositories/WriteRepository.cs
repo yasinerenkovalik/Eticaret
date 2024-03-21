@@ -18,8 +18,8 @@ public class WriteRepository<T>:IWriteRepository<T>  where T:BaseEntity
     public DbSet<T> Table => _eticaretContext.Set<T>();
     public async Task<bool> AddAsync(T entity)
     {
-     EntityEntry<T> entityEntry= await Table.AddAsync(entity);
-     return entityEntry.State == EntityState.Added;
+        EntityEntry<T> entityEntry= await Table.AddAsync(entity);
+        return entityEntry.State == EntityState.Added;
     }
 
     public async Task<bool> AddRanceAsync(List<T> entity)
@@ -30,8 +30,8 @@ public class WriteRepository<T>:IWriteRepository<T>  where T:BaseEntity
 
     public bool Remove(T entity)
     {
-       EntityEntry<T> entityEntry= Table.Remove(entity);
-       return entityEntry.State == EntityState.Deleted;
+        EntityEntry<T> entityEntry= Table.Remove(entity);
+        return entityEntry.State == EntityState.Deleted;
     }
 
     public bool RemoveRange(List<T> entities)
@@ -40,17 +40,17 @@ public class WriteRepository<T>:IWriteRepository<T>  where T:BaseEntity
         return true;
     }
 
-    public async Task<bool> RemoveAsync(string id)
+    public bool RemoveAsync(string id)
     {
-       T model= await Table.FirstOrDefaultAsync(data => data.Id == Guid.Parse(id));
-       return Remove(model);
+        T model=  Table.FirstOrDefault(x=>x.Id==Guid.Parse(id));
+        return Remove(model);
 
     }
 
     public bool Update(T entity)
     {
-      EntityEntry<T> entityEntry= Table.Update(entity);
-      return entityEntry.State == EntityState.Modified;
+        EntityEntry<T> entityEntry= Table.Update(entity);
+        return entityEntry.State == EntityState.Modified;
     }
 
     public async Task<int> SaveAsync()

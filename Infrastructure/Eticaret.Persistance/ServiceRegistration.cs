@@ -1,6 +1,4 @@
-using Eticaret.Application.Absract;
 using Eticaret.Application.Repositories;
-using Eticaret.Persistance.Concreates;
 using Eticaret.Persistance.Contexts;
 using Eticaret.Persistance.Repositories;
 using Microsoft.EntityFrameworkCore;

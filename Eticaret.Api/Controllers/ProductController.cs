@@ -82,7 +82,7 @@ namespace Eticaret.Api.Controllers
 
         public async Task<IActionResult> Delete(string id)
         {
-            await _productWriteService.RemoveAsync(id);
+             _productWriteService.RemoveAsync(id);
             await _productWriteService.SaveAsync();
             return Ok();
 
