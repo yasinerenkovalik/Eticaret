@@ -9,7 +9,7 @@ public static class Configuration
         get
         {
             ConfigurationManager configurationManager = new();
-            configurationManager.SetBasePath(Path.Combine(Directory.GetCurrentDirectory(),"/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Eticaret.Api"));
+            configurationManager.SetBasePath(Path.Combine(Directory.GetCurrentDirectory(),"/Users/yasinerenkovalik/projeler/eticaret/back/Eticaret/Eticaret.Api"));
             configurationManager.AddJsonFile("appsettings.json");
             return configurationManager.GetConnectionString("PostgreSQL");
         }

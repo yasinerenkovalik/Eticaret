@@ -2861,19 +2861,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/yasineren/.nuget/packages/": {}
+    "/Users/yasinerenkovalik/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Infrastructure/Eticaret.Infrusturucture/Eticaret.Infrusturucture.csproj",
+      "projectUniqueName": "/Users/yasinerenkovalik/projeler/eticaret/back/Eticaret/Infrastructure/Eticaret.Infrusturucture/Eticaret.Infrusturucture.csproj",
       "projectName": "Eticaret.Infrusturucture",
-      "projectPath": "/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Infrastructure/Eticaret.Infrusturucture/Eticaret.Infrusturucture.csproj",
-      "packagesPath": "/Users/yasineren/.nuget/packages/",
-      "outputPath": "/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Infrastructure/Eticaret.Infrusturucture/obj/",
+      "projectPath": "/Users/yasinerenkovalik/projeler/eticaret/back/Eticaret/Infrastructure/Eticaret.Infrusturucture/Eticaret.Infrusturucture.csproj",
+      "packagesPath": "/Users/yasinerenkovalik/.nuget/packages/",
+      "outputPath": "/Users/yasinerenkovalik/projeler/eticaret/back/Eticaret/Infrastructure/Eticaret.Infrusturucture/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/yasineren/.nuget/NuGet/NuGet.Config"
+        "/Users/yasinerenkovalik/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -2885,8 +2885,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Core/Eticaret.Application/Eticaret.Application.csproj": {
-              "projectPath": "/Users/yasineren/Desktop/EticaretAPİ/Eticaret/Core/Eticaret.Application/Eticaret.Application.csproj"
+            "/Users/yasinerenkovalik/projeler/eticaret/back/Eticaret/Core/Eticaret.Application/Eticaret.Application.csproj": {
+              "projectPath": "/Users/yasinerenkovalik/projeler/eticaret/back/Eticaret/Core/Eticaret.Application/Eticaret.Application.csproj"
             }
           }
         }
@@ -2895,6 +2895,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -2928,11 +2933,11 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.26, 6.0.26]"
+            "version": "[6.0.31, 6.0.31]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.26, 6.0.26]"
+            "version": "[6.0.31, 6.0.31]"
           }
         ],
         "frameworkReferences": {
@@ -2940,7 +2945,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.302/RuntimeIdentifierGraph.json"
       }
     }
   }
