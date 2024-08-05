@@ -10,6 +10,10 @@ public static class ServiceRegistration
 {
     public static void AddPersistanceService(this IServiceCollection serviceCollection)
     {
+         serviceCollection.AddDbContext<EticaretContext>
+        (options=>
+            options.UseNpgsql
+                (Configuration.ConnectionString));
 
         serviceCollection.AddScoped<IProductReadRepository, ProductReadrRepository>();
         serviceCollection.AddScoped<IProductWriteReposirtory, ProductWriteRepository>();
@@ -18,10 +22,7 @@ public static class ServiceRegistration
         serviceCollection.AddScoped<ICustomerReadRepository, CusotmerReadRepository>();
         serviceCollection.AddScoped<ICustomerWriterRepository, CustomerWriteRepository>();
         
-        serviceCollection.AddDbContext<EticaretContext>
-        (options=>
-            options.UseNpgsql
-                (Configuration.ConnectionString));
+       
     }
     
 }

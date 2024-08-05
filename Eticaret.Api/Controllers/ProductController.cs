@@ -23,7 +23,7 @@ namespace Eticaret.Api.Controllers
         }
 
         [HttpGet]
-        public async  Task<IActionResult> Get([FromQuery]Pagination pagination)
+        public  IActionResult Get([FromQuery]Pagination pagination)
         {
               var totalCount = _productReadRepository.GetAll(false).Count();
               var products=  _productReadRepository
@@ -39,7 +39,7 @@ namespace Eticaret.Api.Controllers
                     p.CDateTime,
                     p.UpdDateTime
 
-                });
+                }).ToList();
                return Ok(new{totalCount,products});
         }
 
@@ -56,13 +56,13 @@ namespace Eticaret.Api.Controllers
             {
                 
             }
-            await (_productWriteService.AddAsync(new()
+            await _productWriteService.AddAsync(new()
             {
                 Name = model.Name,
                 Stock = model.Stock,
                 Price = model.Price
                 
-            }));
+            });
             await _productWriteService.SaveAsync();
             return StatusCode((int)HttpStatusCode.Created);
         }
@@ -82,7 +82,7 @@ namespace Eticaret.Api.Controllers
 
         public async Task<IActionResult> Delete(string id)
         {
-             _productWriteService.RemoveAsync(id);
+           await _productWriteService.RemoveAsync(id);
             await _productWriteService.SaveAsync();
             return Ok();
 

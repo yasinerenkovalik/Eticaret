@@ -40,9 +40,9 @@ public class WriteRepository<T>:IWriteRepository<T>  where T:BaseEntity
         return true;
     }
 
-    public bool RemoveAsync(string id)
+    public async Task<bool> RemoveAsync(string id)
     {
-        T model=  Table.FirstOrDefault(x=>x.Id==Guid.Parse(id));
+        T model= await Table.FirstOrDefaultAsync(x=>x.Id==Guid.Parse(id));
         return Remove(model);
 
     }
